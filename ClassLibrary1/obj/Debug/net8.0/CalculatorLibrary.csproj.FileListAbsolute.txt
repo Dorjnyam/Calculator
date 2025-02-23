@@ -9,3 +9,4 @@ C:\Users\dell\source\repos\Calculator\ClassLibrary1\obj\Debug\net8.0\CalculatorL
 C:\Users\dell\source\repos\Calculator\ClassLibrary1\obj\Debug\net8.0\refint\CalculatorLibrary.dll
 C:\Users\dell\source\repos\Calculator\ClassLibrary1\obj\Debug\net8.0\CalculatorLibrary.pdb
 C:\Users\dell\source\repos\Calculator\ClassLibrary1\obj\Debug\net8.0\ref\CalculatorLibrary.dll
+C:\Users\dell\source\repos\Calculator\ClassLibrary1\obj\Debug\net8.0\CalculatorLibrary.sourcelink.json

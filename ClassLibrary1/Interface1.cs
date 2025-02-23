@@ -8,7 +8,7 @@ namespace Calculator
 {
     interface InterfaceOperators
     {
-        void Sum(float x, float y);
+        void Sum(float? x, float? y);
         void Substraction(float x, float y);
     }
 }

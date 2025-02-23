@@ -12,11 +12,26 @@ namespace Calculator
     
     public abstract class Operators : InterfaceOperators
     {
+        private float _result;
         // Result gesen property
-        public float Result { get; set; }
-        public virtual void Sum(float x, float y)
+        public float Result 
+        { 
+            get
+            {
+                return _result;
+            }
+            set
+            {
+                _result = value;
+            }
+        }
+        public virtual void Sum(float? x, float? y)
         {
-            Result = x + y;
+            if (x == null || y == null)
+            {
+                throw new ArgumentNullException("hooson utga oruulj bolohgui.");
+            }
+            Result = x.Value + y.Value;
         }
 
         public virtual void Substraction(float x, float y)
