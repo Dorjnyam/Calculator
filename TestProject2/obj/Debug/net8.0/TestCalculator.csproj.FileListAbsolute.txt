@@ -1,0 +1,11 @@
+C:\Users\dell\source\repos\Calculator\TestProject2\bin\Debug\net8.0\.msCoverageSourceRootsMapping_TestCalculator
+C:\Users\dell\source\repos\Calculator\TestProject2\bin\Debug\net8.0\.msCoverageExtensionSourceRootsMapping_TestCalculator
+C:\Users\dell\source\repos\Calculator\TestProject2\obj\Debug\net8.0\TestCalculator.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\Calculator\TestProject2\obj\Debug\net8.0\TestCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\source\repos\Calculator\TestProject2\obj\Debug\net8.0\TestCalculator.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\Calculator\TestProject2\obj\Debug\net8.0\TestCalculator.AssemblyInfo.cs
+C:\Users\dell\source\repos\Calculator\TestProject2\obj\Debug\net8.0\TestCalculator.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Calculator\TestProject2\obj\Debug\net8.0\TestCalculator.gentestingplatformentrypointinputcache.cache
+C:\Users\dell\source\repos\Calculator\TestProject2\obj\Debug\net8.0\TestCalculator.genautoregisteredextensionsinputcache.cache
+C:\Users\dell\source\repos\Calculator\TestProject2\obj\Debug\net8.0\AutoRegisteredExtensions.cs
+C:\Users\dell\source\repos\Calculator\TestProject2\obj\Debug\net8.0\TestPlatformEntryPoint.cs
