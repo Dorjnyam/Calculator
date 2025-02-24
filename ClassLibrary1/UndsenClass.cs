@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
+    /// <summary>
+    /// main class that inherits from Operators class
+    /// </summary>
     public class UndsenCalculator : Operators
     {
 
