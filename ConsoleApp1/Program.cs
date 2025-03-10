@@ -4,7 +4,6 @@ using Calculator;
 
 Console.WriteLine("Hello, World!");
 UndsenCalculator calculator = new UndsenCalculator();
-Memory memory = new Memory();
 bool running = true;
 
 while (running)
@@ -109,7 +108,7 @@ while (running)
         string storeInMemory = Console.ReadLine();
         if (storeInMemory == "y" || storeInMemory == "Y")
         {
-            memory.MemoryStore(new MemoryItem(calculator.Result));
+            calculator.MemoryStore(new MemoryItem(calculator.Result));
         }
         else
         {
@@ -118,17 +117,17 @@ while (running)
     }
     else if (choice == 9)
     {
-        memory.PrintMemoryItems();
+        calculator.PrintMemoryItems();
         Console.WriteLine("Sanah oigoos duudah.");
     }
     else if (choice == 10)
     {
-        memory.PrintMemoryItems();
+        calculator.PrintMemoryItems();
         Console.WriteLine("edgeerees duudah utgiin omnoh index ee songono uu:");
         int index = Convert.ToInt32(Console.ReadLine());
         try
         {
-            float recalledValue = memory.RecallMemoryItem(index);
+            float recalledValue = calculator.RecallMemoryItem(index);
             Console.WriteLine($"Sanah oigoos duudsan utga: {recalledValue}");
         }
         catch (IndexOutOfRangeException ex)
@@ -138,7 +137,7 @@ while (running)
     }
     else if (choice == 11)
     {
-        memory.PrintMemoryItems();
+        calculator.PrintMemoryItems();
         Console.WriteLine("Sanah oigoo songono uu:");
         int index = Convert.ToInt32(Console.ReadLine());
 
@@ -146,7 +145,7 @@ while (running)
         float addValue = Convert.ToSingle(Console.ReadLine());
         try
         {
-            float result = memory.MemoryAdd(index, addValue);
+            float result = calculator.MemoryAdd(index, addValue);
             Console.WriteLine($"Memory-d nemeed ur dung sanana: {result}");
         }
         catch (IndexOutOfRangeException ex)
@@ -156,7 +155,7 @@ while (running)
     }
     else if (choice == 12)
     {
-        memory.PrintMemoryItems();
+        calculator  .PrintMemoryItems();
         Console.WriteLine("Sanah oigoo songono uu:");
         int index = Convert.ToInt32(Console.ReadLine());
 
@@ -164,7 +163,7 @@ while (running)
         float subtractValue = Convert.ToSingle(Console.ReadLine());
         try
         {
-            float result = memory.MemorySubstract(index, subtractValue);
+            float result = calculator.MemorySubstract(index, subtractValue);
             Console.WriteLine($"Memory-s hasaad ur dung sanana: {result}");
         }
         catch (IndexOutOfRangeException ex)
@@ -174,7 +173,7 @@ while (running)
     }
     else if (choice == 13)
     {
-        memory.ClearAllMemory();
+        calculator.ClearAllMemory();
         Console.WriteLine("Sanah oi bugd ustgagdlaa.");
     }
     else

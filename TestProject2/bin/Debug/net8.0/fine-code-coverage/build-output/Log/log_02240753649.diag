@@ -1,0 +1,16 @@
+2025-02-24T07:50:53.6602939+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.4.3+c252b64ad913ea9411fc5d17bfd5580d2d061497
+2025-02-24T07:50:53.6953317+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-02-24T07:50:53.6985535+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-02-24T07:50:53.6985786+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 07:50:53.592
+2025-02-24T07:50:53.7020268+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 472
+2025-02-24T07:50:53.7023297+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.12
+2025-02-24T07:50:53.7023729+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.12\System.Private.CoreLib.dll
+2025-02-24T07:50:53.7023888+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-02-24T07:50:53.7024081+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\dell\source\repos\Calculator\TestProject2\bin\Debug\net8.0\TestCalculator.dll
+2025-02-24T07:50:53.7028067+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\dell\source\repos\Calculator\TestProject2\bin\Debug\net8.0\Log --results-directory C:\Users\dell\source\repos\Calculator\TestResults --client-port 61718'
+2025-02-24T07:50:53.7056092+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-02-24T07:50:53.7620247+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-02-24T07:50:53.7723144+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'C:\Users\dell\source\repos\Calculator\TestProject2\bin\Debug\net8.0\TestCalculator.testconfig.json' not found.
+2025-02-24T07:50:53.7757744+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-02-24T07:50:54.1378705+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.6.4' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-02-24T07:50:54.3382413+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Users\dell\source\repos\Calculator\TestProject2\bin\Debug\net8.0\TestCalculator.dll (Workers: 16, Scope: MethodLevel)
