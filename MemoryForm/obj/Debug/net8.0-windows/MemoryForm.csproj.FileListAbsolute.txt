@@ -1,0 +1,8 @@
+C:\Users\dell\source\repos\Calculator\MemoryForm\obj\Debug\net8.0-windows\MemoryForm.Form1.resources
+C:\Users\dell\source\repos\Calculator\MemoryForm\obj\Debug\net8.0-windows\MemoryForm.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\Calculator\MemoryForm\obj\Debug\net8.0-windows\MemoryForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\source\repos\Calculator\MemoryForm\obj\Debug\net8.0-windows\MemoryForm.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\Calculator\MemoryForm\obj\Debug\net8.0-windows\MemoryForm.AssemblyInfo.cs
+C:\Users\dell\source\repos\Calculator\MemoryForm\obj\Debug\net8.0-windows\MemoryForm.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Calculator\MemoryForm\obj\Debug\net8.0-windows\MemoryForm.sourcelink.json
+C:\Users\dell\source\repos\Calculator\MemoryForm\obj\Debug\net8.0-windows\MemoryForm.Form2.resources

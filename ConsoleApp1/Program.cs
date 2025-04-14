@@ -105,7 +105,8 @@ while (running)
         }
 
         Console.WriteLine("Ur dung sanah oid hadgalah uu? (y/n)");
-        string storeInMemory = Console.ReadLine();
+        string storeInMemory = Console.ReadLine()?.Trim().ToLower() ?? "";
+
         if (storeInMemory == "y" || storeInMemory == "Y")
         {
             calculator.MemoryStore(new MemoryItem(calculator.Result));

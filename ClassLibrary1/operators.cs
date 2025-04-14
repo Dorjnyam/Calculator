@@ -76,7 +76,7 @@ namespace Calculator
             {
                 throw new DivideByZeroException("0 ees oor too oruulna uu");
             }
-            Result = x / y;
+            Result = (float)Math.Round(x / y, 2);
         }
 
         /// <summary>
@@ -86,7 +86,7 @@ namespace Calculator
         /// <param name="y"></param>
         public virtual void Multiplication(float x, float y)
         {
-            Result = x * y;
+            Result = (float)Math.Round(x * y, 2);
         }
 
         /// <summary>
